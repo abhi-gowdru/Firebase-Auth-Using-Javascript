@@ -1,15 +1,7 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js'
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, sendPasswordResetEmail, onAuthStateChanged, signOut, deleteUser, updatePassword, sendEmailVerification } from 'https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js'
 
-const firebaseConfig = {
-    apiKey: "AIzaSyC6pCjKdKSbeNnl9ZwYWRbgdggvKOSEkQ8",
-    authDomain: "fir-javascript-b5efe.firebaseapp.com",
-    projectId: "fir-javascript-b5efe",
-    storageBucket: "fir-javascript-b5efe.appspot.com",
-    messagingSenderId: "928939334435",
-    appId: "1:928939334435:web:040683ac74b48bf857ca96",
-    measurementId: "G-NCYX6GF938"
-};
+function _0x8ee3(_0x42820a,_0x36ed9e){const _0x521e37=_0x521e();return _0x8ee3=function(_0x8ee37b,_0x97b756){_0x8ee37b=_0x8ee37b-0xaf;let _0x1891f1=_0x521e37[_0x8ee37b];return _0x1891f1;},_0x8ee3(_0x42820a,_0x36ed9e);}const _0x276a9d=_0x8ee3;(function(_0x18b5ca,_0xeb2fab){const _0x330225=_0x8ee3,_0x59847c=_0x18b5ca();while(!![]){try{const _0x10bbc4=-parseInt(_0x330225(0xb7))/0x1*(-parseInt(_0x330225(0xbb))/0x2)+-parseInt(_0x330225(0xb9))/0x3+-parseInt(_0x330225(0xb3))/0x4+parseInt(_0x330225(0xb0))/0x5+parseInt(_0x330225(0xba))/0x6*(-parseInt(_0x330225(0xaf))/0x7)+parseInt(_0x330225(0xb8))/0x8*(-parseInt(_0x330225(0xbd))/0x9)+parseInt(_0x330225(0xb2))/0xa;if(_0x10bbc4===_0xeb2fab)break;else _0x59847c['push'](_0x59847c['shift']());}catch(_0x577508){_0x59847c['push'](_0x59847c['shift']());}}}(_0x521e,0x1cf49));const firebaseConfig={'apiKey':_0x276a9d(0xb6),'authDomain':'fir-javascript-b5efe.firebaseapp.com','projectId':_0x276a9d(0xb4),'storageBucket':_0x276a9d(0xb5),'messagingSenderId':_0x276a9d(0xb1),'appId':'1:928939334435:web:040683ac74b48bf857ca96','measurementId':_0x276a9d(0xbc)};function _0x521e(){const _0x1c5123=['50440PfERPI','928939334435','5946040aYXmmY','623452fhWkYt','fir-javascript-b5efe','fir-javascript-b5efe.appspot.com','AIzaSyC6pCjKdKSbeNnl9ZwYWRbgdggvKOSEkQ8','25IYHFxT','119864kAlDES','396411TGJpHL','6kYJZuk','5872gMscSr','G-NCYX6GF938','126UUEtlQ','432103MYfMQI'];_0x521e=function(){return _0x1c5123;};return _0x521e();}
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
